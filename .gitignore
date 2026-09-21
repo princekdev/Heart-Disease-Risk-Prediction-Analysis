@@ -1,0 +1,43 @@
+# .gitignore for Heart Disease Analysis Project
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment / IDE
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Secrets and credentials
+.env
+secrets.yaml
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
